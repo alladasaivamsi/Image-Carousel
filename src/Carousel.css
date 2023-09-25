@@ -1,0 +1,28 @@
+.images {
+   width: 800px;
+   height: 500px;
+   border-radius: 2rem;
+   border: 2px solid black;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
